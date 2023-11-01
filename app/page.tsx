@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import IssueChart from "./IssueChart";
 import IssueSummary from "./IssueSummary";
 import LatestIssues from "./LatestIssues";
@@ -21,3 +22,8 @@ export default async function Home() {
     </Grid>
   );
 }
+
+export const metadata: Metadata = {
+  title: "SnafuZoo Issue Tracker - Dashboard",
+  description: "View a summary of issues",
+};
