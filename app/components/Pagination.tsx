@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Button, Flex, Text } from "@radix-ui/themes";
+import { Button, Flex, Text, Box } from "@radix-ui/themes";
 import {
   ChevronLeftIcon,
   ChevronRightIcon,
