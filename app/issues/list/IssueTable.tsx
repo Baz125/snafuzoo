@@ -1,8 +1,7 @@
-import { Link } from "@/app/components";
+import { Link, IssueStatusBadge } from "@/app/components";
 import { ArrowUpIcon } from "@radix-ui/react-icons";
 import { Table, TableColumnHeaderCell } from "@radix-ui/themes";
 import NextLink from "next/link";
-import IssueStatusBadge from "../../components/IssueStatusBadge";
 import React from "react";
 import { Issue, Status } from "@prisma/client";
 
