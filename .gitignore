@@ -35,3 +35,6 @@ yarn-error.log*
 next-env.d.ts
 
 open-issues.txt
+
+# Sentry Config File
+.sentryclirc
